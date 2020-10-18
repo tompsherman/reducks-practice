@@ -4,6 +4,7 @@ import {fetchDucks} from "../actions"
 import DucksCard from './DucksCard'
 
 const DucksList = (props) => {
+    console.log(props)
     useEffect(() => {
         props.fetchDucks()
     }, [])
